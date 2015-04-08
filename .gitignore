@@ -1,0 +1,11 @@
+lint.xml
+lint_results.xml
+.DS_Store
+bin/
+build/
+gen/
+local.properties
+.gradle/
+Relution*.apk
+ant-build/
+ant-gen/
