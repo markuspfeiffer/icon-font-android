@@ -22,4 +22,11 @@
         android:textSize="25sp"
         app:font_path="fonts/icomoon.ttf" />
 
+    <de.codewild.widgets.IconFontView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:font_path="fonts/icomoon.ttf"
+        app:glyph="@string/icon_diamonds"
+        app:glyph_color="@color/material_deep_teal_500" />
+
 </LinearLayout>

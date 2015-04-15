@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <attr name="font_path" format="string" />
+    <attr name="glyph" format="string" />
+    <attr name="glyph_color" format="reference" />
+
     <!-- IconFontTextView -->
     <declare-styleable name="IconFontTextView">
-        <attr name="font_path" format="string" />
+        <attr name="font_path" />
+    </declare-styleable>
+
+    <!-- IconFontView -->
+    <declare-styleable name="IconFontView">
+        <attr name="font_path" />
+        <attr name="glyph" />
+        <attr name="glyph_color" />
     </declare-styleable>
 
 </resources>
